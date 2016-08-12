@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>ombre</title>
+    <style type="text/css">.to_top{position:fixed;top:0px;}</style>
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript"
+            src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function () {
+        var start_pos = $('#topbar').offset().top;
+        $(window).scroll(function () {
+            if ($(window).scrollTop() >= start_pos) {
+                if ($('#topbar').hasClass() == false) $('#topbar').addClass('to_top');
+            }
+            else $('#topbar').removeClass('to_top');
+        });
+    });
+    </script>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <div id="topbar">
+                <div id="logo"><img src="img/logo.png" width="200" height="60" /></div>
+                <div id="menu">
+                    <div><a href="#contact">Contact</a></div>
+                    <div><a href="#portfolio">Portfolio</a></div>
+                    <div><a href="#team">Team</a></div>
+                    <div><a href="#about"> About</a></div>
+                    <div><a href="#">Home</a></div>
+                </div>
+            </div>
+            <div id="banner">
+                <div id="screen"></div>
+                <div id="mac"> <img src="img/macbook pro.png" width="678" height="391" /></div>
+                <div id="icon"> <img src="img/download icon.png" width="160" height="160" /></div>
+            </div>
+        </div>
+        <div id="content">
+            <div id="about">
+                <p class="title" style="text-align:center"><a name="about"> About Us</a></p>
+                <p class="text" style="text-align:center">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis <br />
+                    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                </p>
+                <div id="aboutimg">
+                    <div id="screenpad"><img src="img/screen ipad.png" width="404" height="304" /></div>
+                    <div id="ipad"><img src="img/ipad air.png" width="497" height="352" /></div>
+                    <div id="iconpad"> <img src="img/download icon ipad.png" width="98" height="97" /> <br /></div>
+                    <div id="ipadtext">
+                        <div id="one"> Image</div>
+                        <div id="two"> iPad Device</div>
+                        <div id="three"> web elements</div>
+                    </div>
+                </div>
+                <div id="maintext">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis <br />
+                        parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. <br />
+                        Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+                </div>
+            </div>
+            <div id="team">
+                <p class="title" style="text-align:center"><a name="team">Our Team</a></p>
+                <p class="text" style="text-align:center">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis <br />
+                    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                </p>
+                <div id="teammate1"><img src="img/business man.png" /></div>
+                <div id="teammate2"><img src="img/woman.png" /></div>
+                <div id="teammate3"><img src="img/business man.png" /></div>
+                <div id="teammate4"><img src="img/woman.png" width="225" height="225" /></div>
+                <div id="teamtext1">Name</div>
+                <div id="teamtext2">Name</div>
+                <div id="teamtext3">Name</div>
+                <div id="teamtext4">Name</div>
+                <div id="textmate1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</div>
+                <div id="textmate2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</div>
+                <div id="textmate3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</div>
+                <div id="textmate4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</div>
+                <div id="mail1"><img src="img/mail.png" /></div>
+                <div id="mail2"><img src="img/mail.png" /></div>
+                <div id="mail3"><img src="img/mail.png" /></div>
+                <div id="mail4"><img src="img/mail.png" /></div>
+            </div>
+            </div>
+            <div id="portfolio">
+                <p class="title" style="text-align:center"><a name="portfolio">Portfolio</a></p>
+                <p class="text" style="text-align:center">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis <br />
+                    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                </p>
+                <div id="image1">Image<div class="inner">Title<br /><span style="font-size:13px">Lorem ipsum dolor sit amet, consec tetuer <br />adipiscing elit.</span></div></div>
+                <div id="image2">Image<div class="inner">Title<br /><span style="font-size:13px">Lorem ipsum dolor sit amet, consec tetuer <br />adipiscing elit.</span></div></div>
+                <div id="image3">Image<div class="inner">Title<br /><span style="font-size:13px">Lorem ipsum dolor sit amet, consec tetuer <br />adipiscing elit.</span></div></div>
+                <div id="image4">Image<div class="inner">Title<br /><span style="font-size:13px">Lorem ipsum dolor sit amet, consec tetuer <br />adipiscing elit.</span></div></div>
+                <div id="image5"><div id="chain"><img src="img/shape 9.png" /></div></div>
+                <div id="image6">Image<div class="inner">Title<br /><span style="font-size:13px">Lorem ipsum dolor sit amet, consec tetuer <br />adipiscing elit.</span></div></div>
+                <div id="image7">Image<div class="inner">Title<br /><span style="font-size:13px">Lorem ipsum dolor sit amet, consec tetuer <br />adipiscing elit.</span></div></div>
+                <div id="image8">Image<div class="inner">Title<br /><span style="font-size:13px">Lorem ipsum dolor sit amet, consec tetuer <br />adipiscing elit.</span></div></div>
+                <div id="image9">Image<div class="inner">Title<br /><span style="font-size:13px">Lorem ipsum dolor sit amet, consec tetuer <br />adipiscing elit.</span></div></div>
+                <div id="layer1"><img src="img/layer 1.png" /></div>
+                <div id="layer2"><img src="img/layer 2.png" /></div>
+                <div id="layer3"><img src="img/layer 2.png" /></div>
+            </div>
+            <div id="contact">
+                <p class="title" style="text-align:center"><a name="contact">Contact</a></p>
+                <p class="text" style="text-align:center">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis <br />
+                    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                </p>
+                <div id="name"><input type="text" placeholder="Enter your Name" size="77" style="height:41px" /> </div>
+                <div id="address"><input type="text" placeholder="Enter your Address" size="77" style="height:41px" /></div>
+                <div id="city"><input type="text" placeholder="Enter your City" size="77" style="height:41px" /></div>
+                <div id="mailaddress"><input type="email" placeholder="Enter your Email Address" size="77" style="height:41px" /></div>
+                <div id="mailmessage"><textarea name="comment" cols="76" rows="5" placeholder="Enter your Email Message"></textarea></div>
+                <div id="submit"><img src="img/submit.png" /></div>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="menuf">
+                <div><a href="#contact">Contact</a></div>
+                <div>:</div>
+                <div><a href="#portfolio">Portfolio</a></div>
+                <div>:</div>
+                <div><a href="#team">Team</a></div>
+                <div>:</div>
+                <div><a href="#about"> About</a></div>
+                <div>:</div>
+                <div><a href="#">Home</a></div>
+            </div>
+        </div>
+    <div id="rights">© 2015 OMBRE.ALL RIGHTS RESERVED.</div>
+</body>
+</html>
